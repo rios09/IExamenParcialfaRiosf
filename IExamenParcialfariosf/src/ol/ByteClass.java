@@ -2,18 +2,18 @@ package ol;
 
 public class ByteClass {
 
-	private long byteNum;
-	private long result;
+	private double byteNum;
+	private double result;
 	
 	public ByteClass() {
 		
 	}
 
-	public long getByteNum() {
+	public double getByteNum() {
 		return byteNum;
 	}
 
-	public void setByteNum(long byteNum) {
+	public void setByteNum(double byteNum) {
 		this.byteNum = byteNum;
 	}
 	

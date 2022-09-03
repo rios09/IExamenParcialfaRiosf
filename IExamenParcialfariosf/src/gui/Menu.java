@@ -18,12 +18,14 @@ public class Menu {
 	
 	public void showMenu() {
 		
-		menu();
 		short op = 0;
-		op= scan.nextShort();
 	
 		do {
-			showMenu();
+			System.out.println("");
+			menu();
+			System.out.println("");
+			op= scan.nextShort();
+
 			switch(op) {
 			
 			case 1:

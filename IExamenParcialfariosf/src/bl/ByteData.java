@@ -12,7 +12,7 @@ public class ByteData {
 		
 		ByteClass bc = new ByteClass();
 		System.out.println("Ingrese el valor en Bytes");
-		bc.setByteNum(scan.nextLong());
+		bc.setByteNum(scan.nextDouble());
 		bc.byteCalc();
 	}
 }

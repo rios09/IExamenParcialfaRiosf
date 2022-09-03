@@ -2,18 +2,18 @@ package ol;
 
 public class Kilobyte {
 
-	private long kilobyte;
-	private long result;
+	private double kilobyte;
+	private double result;
 	
 	public Kilobyte() {
 		
 	}
 
-	public long getKilobyte() {
+	public double getKilobyte() {
 		return kilobyte;
 	}
 
-	public void setKilobyte(long kilobyte) {
+	public void setKilobyte(double kilobyte) {
 		this.kilobyte = kilobyte;
 	}
 

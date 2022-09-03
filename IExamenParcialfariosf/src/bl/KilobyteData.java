@@ -11,7 +11,7 @@ public class KilobyteData {
 	public void kiloInfo() {
 		Kilobyte kb = new Kilobyte();
 		System.out.println("Ingrese el valor en Kilobytes");
-		kb.setKilobyte(scan.nextLong());		
+		kb.setKilobyte(scan.nextDouble());		
 		kb.kilobyteCalc();
 	}
 	
